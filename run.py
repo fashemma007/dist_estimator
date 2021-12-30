@@ -58,7 +58,8 @@ def get_dist():
     difference = difference[difference.distance>0]
     difference['checker'] = difference['trip_key'].isin(routes['trip_key'])
     difference = difference[difference.checker == False]
-    difference = difference.loc[:,('origin_id','dest_id','trip_key','distance')]
+    difference['time_secs'] = difference['distance'] / 1.344 
+    difference = difference.loc[:,('origin_id','dest_id','trip_key','distance','time_secs')]
     difference.to_csv(f"exports/{city_id}.csv",index=False)
     
     return "A peek of what your data looks\n",difference.head()
