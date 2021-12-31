@@ -45,7 +45,7 @@ def get_dist():
     indexNames = df_dist_incols[df_dist_incols['distance']>=500].index
     df_dist_incols.drop(indexNames, inplace=True)
     df_dist_incols=df_dist_incols.sort_values(by=['distance'])
-    drop_dup = df_dist_incols.drop_duplicates(subset= 'distance',keep="first")
+    drop_dup = df_dist_incols.drop_duplicates(subset= None,keep="first")
     final_data = drop_dup.loc[:,('origin_id', 'dest_id','distance')]
     final_data["trip_key"] = drop_dup['origin_id']+'_'+drop_dup['dest_id']
     final_data = final_data.loc[:,('origin_id','dest_id','trip_key','distance')]
