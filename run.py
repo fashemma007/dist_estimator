@@ -65,4 +65,4 @@ def get_dist():
     
     return "A peek of what your data looks\n",difference.head()
 
-get_dist()
+print(get_dist())
