@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import sklearn
-import sklearn.neighbors
+import sklearn.metrics
 import configparser
 config = configparser.ConfigParser()
 file = config.read_file(open(r"links.cfg"))
@@ -17,6 +17,7 @@ def get_dist():
     stops = pd.read_csv(stop_url)
     route = pd.read_csv(route_url)
     
+    ## creating new dtf from seleected columns
     dtf = stops.loc[:,('stop_id', 'stop_name','zone_area_lga')]
     dtf['lat_rads']= stops['Lat-rads']
     dtf['lng_rads']= stops['Long-rads']
@@ -26,7 +27,7 @@ def get_dist():
     places_X=places_X.rename(columns={'stop_name':'origin_name','stop_id':'origin_id'})
     places_Y=dtf[['stop_name','stop_id','lat_rads','lng_rads']].copy()
     places_Y=places_Y.rename(columns={'stop_name':'dest_name','stop_id':'dest_id'})
-    dist = sklearn.neighbors.DistanceMetric.get_metric('haversine')
+    dist = sklearn.metrics.DistanceMetric.get_metric('haversine')
     dist_matrix = (dist.pairwise
         (places_X[['lat_rads','lng_rads']],
          places_Y[['lat_rads','lng_rads']])*6371000
