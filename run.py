@@ -17,7 +17,9 @@ def get_dist():
     stops = pd.read_csv(stop_url)
     route = pd.read_csv(route_url)
     
+    #============================================
     ## creating new dtf from seleected columns
+    #============================================
     dtf = stops.loc[:,('stop_id', 'stop_name','zone_area_lga')]
     dtf['lat_rads']= stops['Lat-rads']
     dtf['lng_rads']= stops['Long-rads']
@@ -63,6 +65,33 @@ def get_dist():
     difference = difference.loc[:,('origin_id','dest_id','trip_key','distance','time_secs')]
     difference.to_csv(f"exports/{city_id}.csv",index=False)
     
-    return "A peek of what your data looks\n",difference.head()
+    stop =stops.loc[:,('stop_id', 'stop_name')]
+    stop = stop.dropna()
+    
+    ##getting origin names
+    m_route = difference.rename(columns={"origin_id": "stop_id"})
 
-print(get_dist())
+    merged = pd.merge(stop, m_route, on="stop_id", how="right")
+
+    merged = merged.rename(columns={"stop_id":"origin_id","dest_id": "stop_id"})
+
+    merged = pd.merge(stop, merged, on="stop_id", how="right")
+
+    merged = merged.rename(columns={"stop_id":"dest_id"})
+
+    merged["headsign_id"],merged["headsign_name"] = merged["dest_id"],merged["stop_name_x"]
+
+    merged = merged.rename(columns={"stop_name_x":"destination_name","stop_name_y":"origin_name"})
+
+    merged["sub_route_name"] = merged["origin_name"]+" - "+merged["headsign_name"]
+
+    merged['mode'] = "Walking"
+
+    merged = merged.loc[:,("sub_route_name","origin_name","origin_id","destination_name","dest_id","headsign_name","headsign_id","mode","distance","time_secs")]
+
+    merged.to_csv(f"exports/{city_id}.csv",index=False)
+
+        
+    return merged.head()
+
+print("A peek of what your data looks \n",get_dist())

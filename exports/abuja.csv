@@ -1,0 +1,44 @@
+sub_route_name,origin_name,origin_id,destination_name,dest_id,headsign_name,headsign_id,mode,distance,time_secs
+Wuse Market - Wuse Market,Wuse Market,WM2WU,Wuse Market,WM1WU,Wuse Market,WM1WU,Walking,96.84555127189977,72.05770183921113
+Arab Contractors - Utako Market,Arab Contractors,ARB3KO,Utako Market,UTMKO,Utako Market,UTMKO,Walking,213.59207190289686,158.92267254679825
+Kado Traffic Light - Abdul Mora Street,Kado Traffic Light,KDT2DO,Abdul Mora Street,ADMDO,Abdul Mora Street,ADMDO,Walking,217.08076106785018,161.518423413579
+NNPC - First Bank,NNPC,NPCPA,First Bank,FBNPA,First Bank,FBNPA,Walking,229.32997420959077,170.63242128689788
+UTC - Garki Market,UTC,UTCGK,Garki Market,GMK1GK,Garki Market,GMK1GK,Walking,287.1741265322751,213.67122509841897
+NHIS - Setraco HQ,NHIS,NHIS2BI,Setraco HQ,SETRDO,Setraco HQ,SETRDO,Walking,293.924410410775,218.69375774611234
+Hon. Justice George Street - John Kadiya Street,Hon. Justice George Street,HJGASK,John Kadiya Street,JHKDASK,John Kadiya Street,JHKDASK,Walking,306.42998218633574,227.99849865054742
+UTC - Garki Market,UTC,UTC2GK,Garki Market,GMK1GK,Garki Market,GMK1GK,Walking,307.1048498403192,228.50063232166607
+Mpape Junction - PW Junction,Mpape Junction,MPE2MA,PW Junction,PWJSD,PW Junction,PWJSD,Walking,319.0700875429019,237.40333894561152
+Garki Market - Area 8,Garki Market,GMK2GK,Area 8,A8RGK,Area 8,A8RGK,Walking,347.16184271944456,258.30494249958673
+Area 8 - Garki Market,Area 8,A8LGK,Garki Market,GMK1GK,Garki Market,GMK1GK,Walking,370.5194956859354,275.68414857584474
+Wuse General Hospital - Zone 3,Wuse General Hospital,WGH2WU,Zone 3,ZN3WU,Zone 3,ZN3WU,Walking,370.8304428085258,275.91550804205787
+Cele Bus stop - Banex Bus Stop,Cele Bus stop,CEL2WU,Banex Bus Stop,BNXWU,Banex Bus Stop,BNXWU,Walking,378.9288408638632,281.9411018332315
+Foreign Affairs - Eagle Square,Foreign Affairs,FRA1CBD,Eagle Square,ESQ2CBD,Eagle Square,ESQ2CBD,Walking,385.49136883186156,286.8239351427541
+Okanga Plaza - Wuye Modern Market,Okanga Plaza,OKNYE,Wuye Modern Market,FAM1YE,Wuye Modern Market,FAM1YE,Walking,387.9770300868285,288.67338548127117
+Movida Lounge - Oduduwa St (Kubwa),Movida Lounge,MOVSD,Oduduwa St (Kubwa),ODUKSD,Oduduwa St (Kubwa),ODUKSD,Walking,403.1509800732497,299.96352684021554
+Oduduwa St (Kubwa) - Movida Lounge,Oduduwa St (Kubwa),ODUKSD,Movida Lounge,MOVSD,Movida Lounge,MOVSD,Walking,403.1509800732497,299.96352684021554
+Amac - Area 10 Bus Stop,Amac,AMC1GK,Area 10 Bus Stop,A10BGK,Area 10 Bus Stop,A10BGK,Walking,409.9037200136398,304.9878869149106
+Berger Junction - Wadata Plaza,Berger Junction,BR2GWU,Wadata Plaza,WADTWU,Wadata Plaza,WADTWU,Walking,427.40768816553964,318.011672742217
+NHIS - Chida Hotel,NHIS,NHISBI,Chida Hotel,CHIDBI,Chida Hotel,CHIDBI,Walking,437.311613551412,325.38066484480055
+Amigo - Nitel,Amigo,AMGWU,Nitel,NIT2WU,Nitel,NIT2WU,Walking,444.97895244928566,331.08553009619465
+Nicon Junction - Missisippi Street,Nicon Junction,NIC3MA,Missisippi Street,MISPMA,Missisippi Street,MISPMA,Walking,446.51192177615343,332.22613227392367
+Missisippi Street - Nicon Junction,Missisippi Street,MISPMA,Nicon Junction,NIC1MA,Nicon Junction,NIC1MA,Walking,450.60842408381416,335.2741250623617
+Yellow Pages - Oduduwa St (Kubwa),Yellow Pages,YWPSD,Oduduwa St (Kubwa),ODUKSD,Oduduwa St (Kubwa),ODUKSD,Walking,451.69882440624923,336.08543482607826
+Oduduwa St (Kubwa) - Yellow Pages,Oduduwa St (Kubwa),ODUKSD,Yellow Pages,YWPSD,Yellow Pages,YWPSD,Walking,451.69882440624923,336.08543482607826
+Metro Plaza - War College (Defense College),Metro Plaza,MTPCBD,War College (Defense College),DFN2CBD,War College (Defense College),DFN2CBD,Walking,451.9390524863706,336.264175957121
+Forte Oil - Exclusive Junction,Forte Oil,FOT2MA,Exclusive Junction,EXCL2WU,Exclusive Junction,EXCL2WU,Walking,456.6384975477046,339.7607868658516
+Kwame Crescent - Jose Marti Street,Kwame Crescent,KWMCASK,Jose Marti Street,JM1ASK,Jose Marti Street,JM1ASK,Walking,457.1474564478269,340.13947652368074
+Jose Marti Street - Kwame Crescent,Jose Marti Street,JM1ASK,Kwame Crescent,KWMCASK,Kwame Crescent,KWMCASK,Walking,457.1474564478269,340.13947652368074
+War College (Defense College) - Metro Plaza,War College (Defense College),DFNCBD,Metro Plaza,MTPCBD,Metro Plaza,MTPCBD,Walking,462.1100380347177,343.8318735377364
+Total Filling Station - Oduduwa St (Kubwa),Total Filling Station,TFSD,Oduduwa St (Kubwa),ODUKSD,Oduduwa St (Kubwa),ODUKSD,Walking,466.8893759541072,347.3879285372821
+Oduduwa St (Kubwa) - Total Filling Station,Oduduwa St (Kubwa),ODUKSD,Total Filling Station,TFSD,Total Filling Station,TFSD,Walking,466.8893759541072,347.3879285372821
+Oduduwa St (Kubwa) - Nugget Bookshop,Oduduwa St (Kubwa),ODUKSD,Nugget Bookshop,NUBOSD,Nugget Bookshop,NUBOSD,Walking,467.7198471804051,348.00583867589665
+Nugget Bookshop - Oduduwa St (Kubwa),Nugget Bookshop,NUBOSD,Oduduwa St (Kubwa),ODUKSD,Oduduwa St (Kubwa),ODUKSD,Walking,467.7198471804051,348.00583867589665
+CBN - War College (Defense College),CBN,CBN2CBD,War College (Defense College),DFNCBD,War College (Defense College),DFNCBD,Walking,477.3270987963012,355.1540913662955
+Wadata Plaza - Grand Ibro,Wadata Plaza,WADTWU,Grand Ibro,GRDWU,Grand Ibro,GRDWU,Walking,478.07829069422166,355.7130139093911
+Maitama Junction - Tipper Garage,Maitama Junction,MAIMA,Tipper Garage,TIP2MA,Tipper Garage,TIP2MA,Walking,486.2806944943921,361.815992927375
+Foreign Affairs - Eagle Square,Foreign Affairs,FRA1CBD,Eagle Square,ESQ1CBD,Eagle Square,ESQ1CBD,Walking,489.2903863466808,364.0553469841375
+John Kadiya Street - Jose Marti Street,John Kadiya Street,JHKDASK,Jose Marti Street,JM1ASK,Jose Marti Street,JM1ASK,Walking,491.0858136056913,365.39123036137744
+Nitel - Amigo,Nitel,NIT1WU,Amigo,AMGWU,Amigo,AMGWU,Walking,494.7970589803607,368.1525736461017
+Banex Junction - Banex Plaza,Banex Junction,BNX2WU,Banex Plaza,BNXPWU,Banex Plaza,BNXPWU,Walking,497.6749342684449,370.2938499021167
+Conference Centre - Area 10 Bus Stop,Conference Centre,CONCBD,Area 10 Bus Stop,A10GK,Area 10 Bus Stop,A10GK,Walking,498.85672064958226,371.17315524522485
+Area 10 Bus Stop - Conference Centre,Area 10 Bus Stop,A10GK,Conference Centre,CONCBD,Conference Centre,CONCBD,Walking,498.85672064958226,371.17315524522485
